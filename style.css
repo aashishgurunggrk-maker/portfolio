@@ -116,3 +116,91 @@ nav .icons a {
 .partners a img{
     margin-right: 5px;
 }
+
+.testinomials {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.testinomials .testinomial {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.testinomials .testinomial img {
+    border-radius: 50%; 
+}
+
+.testinomials .testinomial h3 {
+    font-weight: bold;
+}
+
+.testinomials .testinomial p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5f5f5f
+}
+
+.contact-container {
+    margin-left: 15%;
+    max-width: 70%;
+
+    justify-content: center;
+    display: flex;
+}
+
+.contact-container form {
+    background-color: #ffffff;
+    margin-top: 80px;
+    width:400px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contact-container form h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #826980;
+}
+
+.contact-container form .form-group {
+    margin: 20px;
+}
+
+.contact-container form .form-group span{
+    display: block;
+    text-align: start;
+    margin-left: 35px;
+    color: #a588a2;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+.contact-container form .form-group input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact-container form button{
+    width: 50%;
+    padding: 20px 50px 20px 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(60, 70, 222);
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
