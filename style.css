@@ -22,6 +22,7 @@ body {
 nav {
     background-color: #212121;
     max-width: 70%;
+    width: 100%;
     margin-left: 15%;
     display: flex;
     justify-content: space-around;
@@ -47,6 +48,23 @@ nav .icons {
 
 nav .icons a {
     margin: 15px;
+}
+
+nav .menu {
+    display: none;
+    margin-top: 5%;
+    position: relative;
+    margin-left: 5%;
+}
+
+nav .menu .items-menu {
+    display: none;
+    background-color: #ffffff;
+    list-style-type: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
 }
 
 .user  {
@@ -203,4 +221,22 @@ nav .icons a {
     border-radius: 15px;
     color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width: 400px){
+    nav .links, nav .icons
+    {
+        display: none;
+    }
+    
+    nav {
+        justify-content: end;
+    }
+
+    nav .menu {
+        display: block;
+        position: relative;
+        right: 0;
+    }
 }
